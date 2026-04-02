@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width:1024px){
+.nav-links{
+display:none;
+position:absolute;
+top:70px;
+left:0;
+width:100%;
+text-align: center;
+background:white;
+flex-direction:column;
+gap:20px;
+padding:20px;
+border-bottom:1px solid #ddd;
+}
+
+.navbar:hover .nav-links{
+display:flex;
+}
+
+.enterprise{
+    margin-top: 40px;
+}
+.hamburger{
+display:flex;
+}
+
+.container{
+flex-direction:column;
+text-align:center;
+}
+
+.image{
+display: none;
+}
+
+.office-left img{
+display: none;
+}
+.governance-image img{
+    display: none;
+}
+
+.awards-container{
+grid-template-columns:repeat(2,1fr);
+margin-left:0;
+}
+
+.ft{
+grid-template-columns:repeat(2,1fr);
+margin-left:0;
+}
+
+.apps{
+grid-template-columns:repeat(2,1fr);
+margin-left:0;
+}
+
+.better-grid{
+grid-template-columns:repeat(2,1fr);
+margin-left:0;
+}
+
+.global-grid{
+grid-template-columns:repeat(2,1fr);
+margin-left:45px;
+}
+
+.footer{
+grid-template-columns:repeat(3,1fr);
+padding-left:40px;
+}
+
+.scale{
+flex-direction:column;
+text-align:center;
+}
+
+.btn-3{
+margin-left:150px;
+margin-top:20px;
+}
+.good-4{
+    margin-right: 120px;
+}
+@media (max-width:1024px){
+
+.security{
+flex-direction: column;
+padding:60px 30px;
+ margin-bottom: 0;
+}
+
+#img{
+display: none;
+}
+.governance-text{
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    text-align: center;
+    padding-left: 150px;
+    margin-bottom: 20px;
+}
+.governance{
+    margin-bottom: 10px;
+}
+}
+}
+/* larger phones */
+@media (max-width:720px){
+
+.navbar{
+padding:12px 20px;
+}
+
+.logo{
+font-size:22px;
+}
+
+.enterprise{
+padding:40px 20px;
+}
+
+#disp{
+font-size:30px;
+}
+
+.image{
+padding:10px;
+}
+
+.awards-container{
+grid-template-columns:1fr;
+}
+
+.ft{
+grid-template-columns:1fr;
+}
+
+.apps{
+grid-template-columns:1fr;
+}
+
+.better-grid{
+grid-template-columns:1fr;
+}
+
+.global-grid{
+grid-template-columns:1fr;
+}
+
+.footer{
+grid-template-columns:repeat(2,1fr);
+}
+
+.scale{
+padding:60px 20px;
+}
+
+.fl{
+margin-left:0;
+}
+
+}
+/* small phones */
+@media (max-width:480px){
+
+
+.navbar{
+padding:10px 15px;
+}
+
+.logo{
+font-size:18px;
+gap:6px;
+}
+
+.logo img{
+width:35px;
+height:35px;
+}
+
+.nav-links{
+display:none;
+}
+
+.nav-right{
+display:none;
+}
+
+.hamburger{
+display:block;
+font-size:26px;
+}
+
+.nav-left{
+gap:10px;
+}
+
+#disp{
+font-size:24px;
+}
+
+.text h4{
+font-size:20px;
+}
+
+.governance-text{
+    text-align: start;
+  justify-content: start;
+  align-content: start;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.governance-btn{
+    width: 160px;
+  height: 120px;
+  font-size: 12px;
+}
+.drop h2{
+font-size:30px;
+}
+
+.integration h2{
+font-size:28px;
+}
+.better-top a{
+font-size: 16px;
+}
+.better-grid{
+    grid-template-columns: 1fr;
+}
+.better-top h2{
+font-size:28px;
+}
+
+.footer{
+grid-template-columns:1fr;
+text-align:start;
+}
+#bt{
+  font-size: 14px;
+  width: 150px;
+  margin-left:56px;
+  justify-content: center;
+  align-items: center;
+}
+.good-4{
+    font-size: 15px;
+    text-align: flex-start;
+    max-width: 100px;
+}
+.fl{
+    font-size: 15px;
+}
+.text-2 h2{
+    font-size: 17px;
+}
+.par{
+    margin-right: 10px;
+    justify-self: flex-start;
+}
+par a{
+    font-size: 16px;
+}
+}
+
+
